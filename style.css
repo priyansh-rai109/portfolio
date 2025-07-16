@@ -1,109 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Priyansh Rai | Fresher Portfolio</title>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
 
-  <!-- Font Awesome for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #282c34;
+  color: white;
+}
 
-  <!-- Link to CSS -->
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
 
-  <!-- Header -->
-  <header>
-    <img src="picture.jpg" alt="Profile Picture" class="profile-pic" />
-    <h1>Priyansh Rai</h1>
-    <p>Frontend Developer | Fresher | Web Enthusiast</p>
-  </header>
+nav {
+  background-color: #ff6600;
+  text-align: center;
+  padding: 10px 0;
+}
 
-  <!-- Navigation -->
-  <nav>
-    <a href="#bio">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#education">Education</a>
-    <a href="#contact">Contact</a>
-  </nav>
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
 
-  <!-- About Me -->
-  <section id="bio" class="about-section">
-    <div class="about-wrapper">
-      <div class="about-image">
-        <img src="picture.jpg" alt="Priyansh Rai">
-      </div>
-      <div class="about-content">
-        <h2>👋 About Me</h2>
-        <p>Hi, I'm <strong>Priyansh Rai</strong>, a motivated web development enthusiast and current intern at <strong>Hex Softwares</strong>.</p>
-        <p>As a fresher, I focus on learning modern web development practices and building clean, responsive designs using HTML, CSS, and basic JavaScript.</p>
-        <p>🌟 <em>"I'm not an expert yet, but I'm learning every day."</em></p>
-      </div>
-    </div>
-  </section>
+nav a:hover {
+  color: #000;
+}
 
-  <!-- Skills -->
-  <section id="skills">
-    <h2>🛠️ Skills</h2>
-    <ul class="skills-list">
-      <li><i class="fab fa-html5"></i> HTML5</li>
-      <li><i class="fab fa-css3-alt"></i> CSS3</li>
-      <li><i class="fab fa-js"></i> JavaScript (Basics)</li>
-      <li><i class="fas fa-laptop-code"></i> Responsive Design</li>
-      <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
-    </ul>
-  </section>
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>📁 Projects</h2>
-    <ul>
-      <li><strong>Portfolio Website</strong> – This current portfolio built using HTML & CSS.</li>
-      <li><strong>To-Do List App</strong> – Designed a clean static to-do layout.</li>
-      <li><strong>Landing Page</strong> – Created a product landing page for a smartwatch.</li>
-    </ul>
-  </section>
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #ff6600;
+}
 
-  <!-- Experience -->
-  <section id="experience">
-    <h2>💼 Experience</h2>
-    <p><strong>Intern at Hex Softwares</strong><br>
-    July 2025 – Present<br>
-    Working on real-world frontend tasks, improving skills in HTML, CSS, and GitHub version control.</p>
-  </section>
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
-  <!-- Education -->
-  <section id="education">
-    <h2>🎓 Education</h2>
-    <p><strong>B.Tech in Computer Science</strong><br>
-    Jodhpur Institute of Engineering and Technology, Jodhpur<br>
-    2024 – 2028 (Expected)</p>
-  </section>
+.about-image img {
+  width: 200px;
+  border-radius: 12px;
+}
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>📬 Contact Me</h2>
-    <p><i class="fas fa-envelope"></i> Email: 
-      <a href="mailto:Priyansh0906@icloud.com">Priyansh0906@icloud.com</a>
-    </p>
-    <p><i class="fab fa-github"></i> GitHub: 
-      <a href="https://github.com/priyansh-rai109" target="_blank">github.com/priyansh-rai109</a>
-    </p>
-    <p><i class="fas fa-phone"></i> Phone: 
-      <a href="tel:7851923500">7851923500</a>
-    </p>
-    <p><i class="fab fa-linkedin"></i> LinkedIn: 
-      <a href="https://linkedin.com/in/priyansh-rai-0396a6333" target="_blank">linkedin.com/in/priyansh-rai-0396a6333</a>
-    </p>
-  </section>
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  font-size: 1.1rem;
+}
 
-  <!-- Footer -->
-  <footer>
-    <p>©️ 2025 Priyansh Rai. All Rights Reserved.</p>
-  </footer>
+.skills-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f2f2f2;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
 
-</body>
-</html>
+.skills-list li i {
+  font-size: 1.5rem;
+  color: #ff6600;
+}
+
+.skills-list li:hover {
+  background: #e0e0e0;
+}
+
+footer {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
