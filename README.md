@@ -33,9 +33,7 @@ The goal is to build a clean, responsive, and beginner-friendly portfolio to pra
 > *(You can drag a screenshot into your GitHub editor after uploading)*
 
 ## 🔗 Live Demo
-
-Coming soon...  
-(*Will be hosted using GitHub Pages*)
+[live demo](https://priyansh-rai109.github.io/portfolio/)
 
 ## 📚 What I Learned
 
